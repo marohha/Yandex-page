@@ -1,0 +1,222 @@
+body {
+  background-color: #161617;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 10vh;
+}
+
+.headline {
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 25px;
+  margin: 30px;
+}
+
+.headline__logo {
+  background-image: url('img/orig.png');
+  background-size: 50px;
+  height: 50px;
+  width: 50px;
+}
+
+.headline__logo:hover {
+  transform: scaleX(1.2) scaleY(1.2);
+}
+
+.right {
+  width: 170px;
+}
+
+.button {
+  background-color: #2f2f32;
+  border-radius: 14px;
+  margin-right: 20px;
+  height: 45px;
+  width: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.button:hover {
+  background-color: #999;
+}
+
+.button:focus {
+  background-color: #999;
+  border: none;
+  box-shadow: none;
+}
+
+.icons {
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.menu__burger {
+  background-image: url('img/menu-svgrepo-com.png');
+  background-size: 35px;
+  height: 45px;
+  width: 45px;
+}
+
+.menu__burger:hover {
+  background-image: url('img/menu-svgrepo-com1.png');
+}
+
+.main {
+  height: 80vh;
+}
+
+.space {
+  height: calc(50vh - 190px);
+}
+
+.container-main {
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  background-color: #2f2f32;
+  height: 70px;
+  border-radius: 22px;
+  padding: 0;
+}
+
+.search-form {
+  background-color: transparent;
+  box-shadow: none;
+  padding-left: 0;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #999;
+  caret-color: #fff;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration { 
+  display: none; 
+}
+
+.search-form:focus {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+}
+
+.voice {
+  background-image: url('img/voice-svgrepo-com.png');
+  background-size: 40px;
+  height: 50px;
+  width: 50px;
+}
+
+.camera {
+  background-image: url('img/camera-svgrepo-com.png');
+  background-size: 50px;
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+
+.row-under {
+  margin-top: 15px;
+}
+
+.moon {
+  background-image: url('img/moon-svgrepo-com.png');
+  background-size: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.degrees {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.degrees:hover {
+  color: #999;
+}
+
+.usd {
+  color: #999;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-left: 22px;
+}
+
+.usd:hover {
+  color: #2f2f32;
+}
+
+.city-text {
+  color: #999;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.city-text:hover {
+  color: #2f2f32;
+}
+
+.footer {
+  height: 10vh;
+}
+
+.underline {
+  height: 60px;
+  padding: 25px;
+  margin: 25px;
+}
+
+.alisa__img {
+  background-image: url('img/alisa.png');
+  background-size: 50px;
+  height: 50px;
+  width: 50px;
+  bottom: 30px;
+  right: 20px;
+}
+
+.alisa__img:hover {
+  transform: scaleX(1.2) scaleY(1.2);
+}
+
+@media (max-width: 900px){
+  .headline {
+    margin: 20px 5px;
+  }
+  
+  .usd {
+    display: none;
+  }
+
+  .voice {
+    display: none;
+  }
+
+  .search-form{
+    font-size: 14px;
+  }
+
+  .alisa__img {
+    display: none;
+  }
+}
